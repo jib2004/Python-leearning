@@ -1,5 +1,6 @@
 # import unittest
 from calculator import square
+from solution import power_table
 import pytest
 
 # class MyTestCase(unittest.TestCase):
@@ -54,7 +55,3 @@ def zero():
 def test_str():
    with pytest.raises(TypeError):
        square("cat")
-
-
-
-
